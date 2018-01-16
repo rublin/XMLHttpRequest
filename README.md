@@ -15,8 +15,9 @@ Try to run this project and access to endpoint _http://localhost:8090/currency?i
     "path": "/currency"
 }
 ```
-
+![without header](https://github.com/rublin/XMLHttpRequest/blob/master/without_header.png)
 
 But if you add the header XMLHttpRequest to request, you will not receive any response body messages:
 
 
+![with header](https://github.com/rublin/XMLHttpRequest/blob/master/with_header.png)
