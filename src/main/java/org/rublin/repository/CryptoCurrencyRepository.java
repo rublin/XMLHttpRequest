@@ -7,7 +7,7 @@ import javax.annotation.PostConstruct;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Component
-public class CryproCurrencyRepository {
+public class CryptoCurrencyRepository {
     private ConcurrentHashMap<String, CryptoCurrency> bookMap = new ConcurrentHashMap<String, CryptoCurrency>();
 
     public CryptoCurrency get(String key) {
